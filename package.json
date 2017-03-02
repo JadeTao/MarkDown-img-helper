@@ -1,0 +1,26 @@
+{
+  "name": "markdown-img-helper",
+  "version": "1.0.0",
+  "description": "a nodejs script to auto upload img(or other files) to QiNiu Cloud,and get the url.",
+  "main": "md.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JadeTao/MarkDown-img-helper.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "jader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JadeTao/MarkDown-img-helper/issues"
+  },
+  "homepage": "https://github.com/JadeTao/MarkDown-img-helper#readme",
+  "dependencies": {
+    "copy-paste": "^1.3.0",
+    "qiniu": "^6.1.13"
+  }
+}
