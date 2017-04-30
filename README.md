@@ -1,3 +1,9 @@
+/*
+ * @Author: jader 
+ * @Date: 2017-04-30 23:29:59 
+ * @Last Modified by: jader
+ * @Last Modified time: 2017-04-30 23:33:48
+ */
 
 # 将本地图片上传到七牛云
 
@@ -12,12 +18,11 @@
 
     qiniu.conf.ACCESS_KEY = "Access Key "
 	qiniu.conf.SECRET_KEY = "Secret Key"
-	bucket = "要上传的空间名"//要上传的空间名
+	bucket = "要上传的空间名"
 	bucketUrl = "七牛云通用域名"
-	resultFile = "./url.txt"
-	localFile = __dirname + "/img"
+
 	
-将所要上传的图片放入/img文件夹中，运行脚本
+将所要上传的文件放入/file文件夹中，运行脚本
 		
 		npm start
 
@@ -28,4 +33,4 @@
 
 
 
-[另有朋友的java版本](https://github.com/PopezLotado/MarkdownHelper)
+更新：ES6
