@@ -1,5 +1,5 @@
 {
-  "name": "markdown-img-helper",
+  "name": "file-uploader",
   "version": "1.0.1",
   "description": "a nodejs script to auto upload img(or other files) to QiNiu Cloud,and get the url.",
   "main": "upload.js",
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/JadeTao/MarkDown-img-helper#readme",
   "dependencies": {
-    "asycn": "^2.5.6",
     "qiniu": "^6.1.13"
   }
 }
